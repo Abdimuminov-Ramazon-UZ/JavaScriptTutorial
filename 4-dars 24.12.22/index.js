@@ -70,7 +70,7 @@ let i = 5;
 // } //Answer  without i j
 
 //for
-//tub sonlar
+//toq va juft sonlar
 // let i = 5,
 //     r = i % 2;
 
