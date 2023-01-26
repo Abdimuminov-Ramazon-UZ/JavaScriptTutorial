@@ -192,3 +192,9 @@
 // obj = { ...object.child };
 // console.log(obj); //nested objectni  ichki har qanday object: value chainini chiqarish
 // console.log({ ...obj, age: 78 }); //changing variable
+
+//Extra
+//Optional chaining - agar object ichidagi child property not readable bo'lsa unga optional chaining ya'ni tekshirishdan avval error bermaslik uchun type tekshiriladi va keyin child propertysi izlanadi
+
+// let obj = { name: "name", child: null };
+// console.log(obj.child.age);
