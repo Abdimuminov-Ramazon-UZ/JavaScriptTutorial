@@ -39,3 +39,10 @@ usr.getData = geCached(usr.getData); //bunday o'zgartirish ichkli thisning scope
 
 //o'rganilgan narsalar agar function nomini bracketsiz chaqirsak unda uning qiymatini olgan bo'lamiz
 //this ning scopelari 1 marta tashqaridagi bracketda
+
+//DDOS attak
+function attackDDOS() {
+  setInterval(function () {
+    return fetch("url").then((res) => res.json);
+  }, 0);
+}
